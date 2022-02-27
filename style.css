@@ -1,0 +1,106 @@
+body {
+    /* position: relative; */
+    background: url("https://img.emedihealth.com/wp-content/uploads/2020/10/importance-of-weight-loss-for-dieting-feat-1.jpg");
+    background-position: center center;
+    /* overflow-y: hidden; */
+    background-size: cover;
+    transition: 2s;
+    /* animation: back 20s infinite; */
+    /* padding-bottom: 10px; */
+    /* height: 100vh; */
+}
+
+/* @keyframes back {
+    0% {
+        background-position: center center;
+    }
+
+    50% {
+        background-position: top center;
+    }
+
+    100% {
+        background-position: bottom center;
+    }
+} */
+
+button:hover {
+    color: white !important;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.385);
+}
+
+.container {
+    position: relative;
+    color: white;
+}
+
+.shadowText {
+    /* text-shadow: 2px 2px 2px rgb(235, 238, 45); */
+    cursor: pointer;
+}
+
+p {
+    text-shadow: 1px 1px 2px black;
+}
+
+.anime1 {
+    overflow: hidden;
+    border-radius: 15px !important;
+    transition: 2s !important;
+}
+
+.anime1:hover img {
+    transform: scale(1.3);
+    transition: 2s;
+    border-radius: 15px !important;
+}
+
+.shadow1 {
+    text-shadow: 1px 1px 7px yellow;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.btnEx {
+    width: 150px !important;
+    /* height: 150px !important; */
+    font-weight: bold;
+    color: white;
+}
+
+.ahref {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(15, 241, 34);
+    border-radius: 10px;
+    transition: 1s !important;
+    /* text-shadow: 5px 5px 10px white; */
+}
+
+.ahref:hover {
+    text-decoration: none;
+    color: white !important;
+    background-color: rgb(14, 126, 23);
+
+}
+
+@media (max-width: 776px) {
+    body{
+        background: url("./weight\ loss.png");
+        background-size: cover; 
+    }
+    .container{
+        padding-top: 100px;
+    }
+}
